@@ -4,7 +4,6 @@ function show() {
 }
 show();
 
-
 //Function with arguments and no return value 
 function add(n1, n2, n3) {
     console.log("Arguments : ", n1, n2, n3);
