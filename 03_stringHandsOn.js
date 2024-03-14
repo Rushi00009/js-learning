@@ -10,6 +10,7 @@ function stringHandsOn() {
     // Trim the string and calculate it's length 
     console.log(`======================== Step 3 ========================`);
     var trimsentence = sentence.trim();
+    var sentenceTrim = trimsentence;
     var length = trimsentence.length;
     console.log(`After trim string is : ${trimsentence} `);
     console.log(`After trim string the length of string is : ${trimsentence.length}`);
@@ -38,17 +39,17 @@ function stringHandsOn() {
 
     // Print the string from given index 
     console.log(`======================== Step 8 ========================`);
-    var trimsentence = sentence.trim();
-    var indexSentence = trimsentence.substring(22);
+
+    var indexSentence = sentenceTrim.substring(22);
     console.log(`The string starting from index 22 : ${indexSentence}`);
 
     // Check the string starting with given word 
     console.log(`======================== Step 9 ========================`);
-    console.log(`The string starting word is Hey :`, trimsentence.startsWith("Hey"));
+    console.log(`The string starting word is Hey :`, sentenceTrim.startsWith("Hey"));
 
     // Check the string end with given word 
     console.log(`======================== Step 10 ========================`);
-    console.log(`The string end word is up :`, trimsentence.endsWith("up"));
+    console.log(`The string end word is up :`, sentenceTrim.endsWith("up"));
 
 }
 stringHandsOn();
