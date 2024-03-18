@@ -11,15 +11,19 @@ console.log(`==================== STEP 2  ====================`);
 
 function isEvenOrOddNum(n1, n2, n3, n4) {
     var resn1 = n1 % 2 == 0 ? "EVEN " : "ODD";
+    // var resn1 = n1 % 2 == 0 ? "TRUE " : "FALSE";
     console.log(`Given number ${n1} is ${resn1}`);
 
     var resn2 = n2 % 2 == 0 ? "EVEN" : "ODD";
+    // var resn2 = n2 % 2 == 0 ? "TRUE " : "FALSE";
     console.log(`Given number ${n2} is ${resn2}`);
 
     var resn3 = n3 % 2 == 0 ? "EVEN " : "ODD";
+    // var resn3 = n3 % 2 == 0 ? "TRUE " : "FALSE";
     console.log(`Given number ${n3} is ${resn3}`);
 
     var resn4 = n4 % 2 == 0 ? "EVEN " : "ODD";
+    // var resn4 = n4 % 2 == 0 ? "TRUE " : "FALSE";
     console.log(`Given number ${n4} is ${resn4}`);
 
     return resn1, resn2, resn3, resn4;
