@@ -1,7 +1,17 @@
-function addition(num, target) {
-    var num = (2, 7, 11, 15);
-    var target = num.index(0 + 1);
-    console.log(target);
+// for (var i = 1; i <= 5; i++) {
+//     // Print the number followed by a space
+//     process.stdout.write(i + ' ');
+// }
 
-}
-addition();
+// // Move to the next line
+// console.log();
+
+
+
+var lengthOfLastWord = function(s) {
+    var string = "Hello World";
+    var length = string.length();
+    console.log(length);
+
+
+};
