@@ -32,7 +32,6 @@ let add = (num1, num2, num3, num4, num5, num6 = 0, num7 = 0) => {
     return result;
 
 }
-
 let finalresult = add(100, 100, 200, 349, 756);
 let finalresult1 = add("I", " am", " Learning", " ES6", " features", " in", " depth");
 
