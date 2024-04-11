@@ -21,26 +21,6 @@ arrayPerson.forEach(element => {
     }
 });
 
-
-
-arrayPerson.forEach(element => {
-    const start = arrayPerson.startsWith("J");
-    if (element.name == arrayPerson.startsWith("J")) {
-        element.detail();
-    }
-});
-
-
-
-
-
-
-
-
-
-
-
-
 console.log(`===== WAP to get the average age  ======`);
 let sumAge = 0;
 arrayPerson.forEach(person => {
